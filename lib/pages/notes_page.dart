@@ -10,6 +10,9 @@ class NotesPage extends StatefulWidget {
 class _NotesPageState extends State<NotesPage> {
   @override
   Widget build(BuildContext context) {
-    return Container(child: Text('data'),);
+    return Scaffold(
+      appBar: AppBar(title: Text('data'),),
+body: AboutDialog(),
+    );
   }
 }
